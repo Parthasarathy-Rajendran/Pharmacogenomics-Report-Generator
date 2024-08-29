@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+// import ReportGenerator from './components/ReportGenerator';
+import PharmacogenomicsTest from './components/PharmacogenomicsTest';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className='App-header'>
+        <h1>ReportGenerator</h1>
       </header>
+      <main>
+        {/* <ReportGenerator /> */}
+        <PharmacogenomicsTest />
+      </main>
     </div>
   );
 }
